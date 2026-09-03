@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'My Yii Application';
+$this->title = 'MagiEdit';
 $this->params['meta_description'] = 'A high-performance PHP framework best for developing web applications. Fast, secure, and professional.';
 $this->params['meta_keywords'] = 'yii, yii2, php, framework, web application, high-performance';
 ?>
@@ -17,10 +17,9 @@ $this->params['meta_keywords'] = 'yii, yii2, php, framework, web application, hi
             'class' => 'd-none d-lg-block position-absolute hero-logo',
         ]) ?>
         <div class="position-relative">
-            <h1 class="display-5 fw-bold mb-3">Build with Yii Framework</h1>
+            <h1 class="display-5 fw-bold mb-3">MagiEdit</h1>
             <p class="lead opacity-75 mb-4 hero-lead">
-                A high-performance PHP framework best for developing web applications.
-                Fast, secure, and professional.
+                A high-performance web editor for building Visual Novel games in Ren'Py. <strong>Build with Yii Framework</strong>.
             </p>
             <div class="d-flex gap-2 flex-wrap">
                 <?= Html::a(

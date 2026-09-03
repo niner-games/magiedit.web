@@ -16,7 +16,7 @@ $this->render('_head');
 <html lang="<?= Yii::$app->language ?>" class="h-100" data-bs-theme="light">
 <head>
     <?php $this->head() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title><?= Html::encode($this->title) ?> — A high-performance web editor for building Visual Novel games in Ren'Py</title>
 </head>
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
